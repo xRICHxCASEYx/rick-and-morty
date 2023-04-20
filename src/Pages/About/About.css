@@ -1,0 +1,11 @@
+.image-container{
+   width: 100%;
+}
+
+.about-container{
+   padding: 15px;
+}
+
+.about-container p{
+   margin: 10px;
+}
