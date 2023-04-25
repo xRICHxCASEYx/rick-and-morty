@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage/HomePage'
 import About from './Pages/About/About'
 import Episodes from './Pages/Episodes/Episodes'
 import Footer from './Components/Footer/Footer'
+import CharacterDetails from './Pages/CharacterDetails/CharacterDetails';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/About' element={<About />} />
         <Route path='/Episodes' element={<Episodes />} />
+        <Route path='/details/:characterId' element={<CharacterDetails />} />
       </Routes>
 
       <Footer />
